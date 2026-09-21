@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="300" viewBox="0 0 500 300">
+  <rect width="500" height="300" fill="#f2e3c6"/>
+  <rect x="90" y="90" width="320" height="170" fill="#b97850"/>
+  <rect x="205" y="165" width="90" height="95" fill="#6b3f2a"/>
+  <rect x="115" y="130" width="70" height="60" fill="#b9dceb"/>
+  <rect x="315" y="130" width="70" height="60" fill="#b9dceb"/>
+  <rect x="70" y="70" width="360" height="35" fill="#6b3f2a"/>
+  <text x="250" y="94" text-anchor="middle" font-family="Arial" font-size="20" fill="white">BEAN CORNER</text>
+  <circle cx="250" cy="210" r="7" fill="#d6b36a"/>
+  <rect x="0" y="260" width="500" height="40" fill="#8fb36b"/>
+</svg>

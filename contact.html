@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bean Corner Coffee - Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="contact.html" method="get">
+            <fieldset>
+                <legend>Send a Message</legend>
+
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="date">Visit Date:</label>
+                    <input type="date" id="date" name="date">
+                </p>
+
+                <p>
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject">
+                        <option value="menu">Menu Question</option>
+                        <option value="booking">Table Booking</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+                </p>
+
+                <button type="submit">Send</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>Ertuğrul Ünal &copy; 2026 Bean Corner Coffee</p>
+    </footer>
+</body>
+</html>
